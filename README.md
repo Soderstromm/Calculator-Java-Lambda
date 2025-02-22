@@ -1,2 +1,2 @@
 # Calculator-Java-Lambda
-Calculator, Java, Lambda functions
+Пример написания Калькулятора, с использованием Лямбда функций.
