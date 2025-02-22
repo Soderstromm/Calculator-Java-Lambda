@@ -1,5 +1,5 @@
 ## Calculator-Java-Lambda
-#Описание
+# Описание
 Создайте класс Calculator. В нем создайте статическую переменную типа Supplier. Это функциональный интерфейс, реализующий метод get(). С помощью данной переменной можно будет получить экземпляр класса Calculator. Реализуйте ссылку на вызов конструктора класса Calculator() { }.
 
 static Supplier<Calculator> instance = Calculator::new;
@@ -24,7 +24,7 @@ Predicate<Integer> isPositive = x -> x > 0;
 
 Consumer<Integer> println = System.out::println;
 
-#Реализация
+# Реализация
 
 В классе Main в методе main() создайте экземпляр класса Calculator через вызов статической переменной instance:
 
